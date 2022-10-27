@@ -1,6 +1,8 @@
 # AVTblender
 Basic 3D Engine for visualizing models and composing simple scenes.
-Written in C++ and OpenGL. Developed by João Martinho, Francisco Nicolau, Joana Teodoro and Daniel Ramalho.
+Written in C++ and OpenGL. Integrated output.obj into a windows applcation. Added the open gl window developed by
+
+(João Martinho, Francisco Nicolau, Joana Teodoro and Daniel Ramalho).
 
 ## Running the file
 - Go to \AVT_start\x64\Debug\AVT_start.exe
