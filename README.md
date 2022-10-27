@@ -6,8 +6,7 @@ Written in C++ and OpenGL. Developed by João Martinho, Francisco Nicolau, Joana
 - Go to \AVT_start\x64\Debug\AVT_start.exe
 - Press L
 - Wait to load.
-
-![image](https://user-images.githubusercontent.com/31978917/198357701-803fb1c9-a779-4843-b966-8a84b77eec36.png)
+![image](https://user-images.githubusercontent.com/31978917/198358026-c63686ea-7c52-47e8-a79c-b6ea2d3ccd7a.png)
 
 ## Features
 
