@@ -1,0 +1,144 @@
+--- Manager ---
+Manager:
+- Shader:
+	- Name: grid_shader
+	- Vertex Shader Filepath: res/shaders/grid_vs.glsl
+	- Fragment Shader Filepath: res/shaders/grid_fs.glsl
+- Shader:
+	- Name: blinn_phong_shader
+	- Vertex Shader Filepath: res/shaders/blinn_phong_vs.glsl
+	- Fragment Shader Filepath: res/shaders/blinn_phong_fs.glsl
+- Shader:
+	- Name: gooch_shader
+	- Vertex Shader Filepath: res/shaders/gooch_vs.glsl
+	- Fragment Shader Filepath: res/shaders/gooch_fs.glsl
+- Shader:
+	- Name: hud_shader
+	- Vertex Shader Filepath: res/shaders/hud_vs.glsl
+	- Fragment Shader Filepath: res/shaders/hud_fs.glsl
+- Shader:
+	- Name: gizmo_shader
+	- Vertex Shader Filepath: res/shaders/gizmo_vs.glsl
+	- Fragment Shader Filepath: res/shaders/gizmo_fs.glsl
+- Mesh:
+	- Name: cube_mesh
+	- Filepath: res/meshes/bunny_smooth.obj
+- Mesh:
+	- Name: torus_mesh
+	- Filepath: res/meshes/torus.obj
+- Mesh:
+	- Name: mountain
+	- Filepath: res/meshes/mountain.obj
+- Mesh:
+	- Name: skirt
+	- Filepath: res/meshes/skirt.obj
+- Mesh:
+	- Name: plane_mesh
+	- Filepath: res/meshes/plane.obj
+- Mesh:
+	- Name: rotation_gizmo
+	- Filepath: res/meshes/Gizmos/AltRotationGizmo.obj
+- Mesh:
+	- Name: hud_mesh
+	- Filepath: res/meshes/hud.obj
+- Mesh:
+	- Name: translation_gizmo
+	- Filepath: res/meshes/Gizmos/TranslationGizmo.obj
+- Mesh:
+	- Name: scale_gizmo
+	- Filepath: res/meshes/Gizmos/ScaleGizmo.obj
+- Texture:
+	- Name: hud_texture
+	- Filepath: res/textures/hud_texture.psd
+- Material:
+	- Name: blinnphong_mat
+	- Shader: blinn_phong_shader
+	- Uniforms:
+		 - Vector3D:
+			- Name: u_AlbedoColor
+			- Values: 0.8 0.8 0.8
+- Material:
+	- Name: gooch_mat
+	- Shader: gooch_shader
+	- Uniforms:
+		 - Vector3D:
+			- Name: u_AlbedoColor
+			- Values: 0.8 0.8 0.8
+- Material:
+	- Name: grid_mat
+	- Shader: grid_shader
+	- Uniforms:
+- Material:
+	- Name: hud_mat
+	- Shader: hud_shader
+	- Uniforms:
+--- Graph ---
+Node:
+- Name: root
+- Parent: None
+- Children: 2
+- Material:
+	- Name: None
+- Texture:
+	 Name: None
+- Shaders:
+	- Name: None
+- Mesh: 
+	- Name: None
+- Transformation: 
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+- Inverse: 
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
+Node:
+- Name: mountain
+- Parent: root
+- Children: 0
+- Material:
+	- Name: None
+- Texture:
+	- Name: None
+- Shaders:
+	- Name: None
+- Mesh: 
+	- Name: None
+- Transformation: 
+0.989598 0.071972 0.124563 23.6264
+-0.128989 0.0605046 0.989798 7.19598
+0.0637012 -0.99557 0.0691588 1.90257
+0 0 0 1
+- Inverse: 
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
+Node:
+- Name: torus
+- Parent: root
+- Children: 0
+- Material:
+	- Name: None
+- Texture:
+	- Name: None
+- Shaders:
+	- Name: None
+- Mesh: 
+	- Name: None
+- Transformation: 
+0.926261 0.376882 -0.000106967 -0.220173
+-0.115211 0.283422 0.95205 0
+0.358841 -0.881834 0.305944 -7.43831
+0 0 0 1
+- Inverse: 
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
