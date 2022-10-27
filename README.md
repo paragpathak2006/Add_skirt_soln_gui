@@ -2,6 +2,13 @@
 Basic 3D Engine for visualizing models and composing simple scenes.
 Written in C++ and OpenGL. Developed by João Martinho, Francisco Nicolau, Joana Teodoro and Daniel Ramalho.
 
+##Running the file
+- Go to \AVT_start\x64\Debug\AVT_start.exe
+- Press L
+- Wait to load.
+
+![image](https://user-images.githubusercontent.com/31978917/198357701-803fb1c9-a779-4843-b966-8a84b77eec36.png)
+
 ## Features
 
 * Load and Visualize 3D meshes (.obj files);
