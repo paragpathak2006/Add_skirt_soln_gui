@@ -1,8 +1,7 @@
 # AVTblender
-Basic 3D Engine for visualizing models and composing simple scenes.
-Written in C++ and OpenGL. Integrated output.obj into a windows applcation. Added the open gl window developed by
-
-(João Martinho, Francisco Nicolau, Joana Teodoro and Daniel Ramalho).
+- Basic 3D Engine for visualizing models and composing simple scenes.
+- Original C++ project visit [https://github.com/paragpathak2006/Add_skirt_soln](https://github.com/paragpathak2006/Add_skirt_soln)
+- Written in C++ and OpenGL. Integrated output.obj into a windows applcation. Added the open gl window
 
 ## Running the file
 - Go to \AVT_start\x64\Debug\AVT_start.exe
@@ -26,7 +25,3 @@ Written in C++ and OpenGL. Integrated output.obj into a windows applcation. Adde
 * Shading Model examples (Gouraud, Blinn-Phong, Gooch and Toon Shaders);
 
 * Simple Command-based interface; 
-
-
-## Demo
-[![Watch the video](https://i.vimeocdn.com/video/1089074469_1040x584.jpg)](https://vimeo.com/526104895)
