@@ -1,4 +1,4 @@
-# AVTblender
+# AVT blender window
 - Basic 3D Engine for visualizing models and composing simple scenes.
 - Original C++ project visit [https://github.com/paragpathak2006/Add_skirt_soln](https://github.com/paragpathak2006/Add_skirt_soln)
 - Written in C++ and OpenGL.
